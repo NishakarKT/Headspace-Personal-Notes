@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headspace</title>
+    <link rel="stylesheet" href="style_hs.css">
+    <!-- Icon -->
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="navBar">
+            <ul id="mainNav">
+                <li id="hmeBtn">Home</li>
+                <li id="myNteBtn">MyNotes</li>
+                <li id="myDryBtn">MyDiary</li>
+            </ul>
+        </div>
+        <div id="main">
+            <h1>Headspace</h1>
+            <p>Have something on mind ?<br>Why not jot it down...</p>
+        </div>
+    </header>
+    <section id="section">
+        <div id="animTxt">
+        </div>
+        <div id="sect">
+            <aside id="fileHandling">
+                <input type="text" id="srchBox" placeholder="search">
+                <div id="noteEntries"></div>
+                <div id="diaryEntries"></div>
+            </aside>
+            <div id="workspace">
+                <button id="newBtn">new</button>
+                <div id="dte"></div>
+                <div id="ttl"></div>
+                <p id="txt"></p>
+                <input id="edtDte" type="date">
+                <input id="edtTtl" type="text" placeholder="TITLE" maxlength="20">
+                <textarea id="edtTxt" placeholder="CONTENT"></textarea>
+                <div id="btns">
+                    <button id="clrBtn">clear</button>
+                    <button id="sveBtn">save</button>
+                    <button id="delBtn">delete</button>
+                </div>
+            </div>
+            <aside id="ads">
+                <a href="http://google.com" target="_blank"><img src="images/adExample.jpg" alt=""></a>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Headspace is a free, easy-to-use service that helps you maintain your daily-notes and diary-entries in a
+            methodical fashion.<br>
+            Visuals are from <a href='http://unsplash.com'>Unsplash </a>- The internet’s source of freely-usable images.
+        </p>
+        <div id="contact">
+            <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" alt=""></a>
+            <a href="http://instagram.com" target="_blank"><img src="images/instagram.png" alt=""></a>
+            <a href="http://linkedin.com" target="_blank"><img src="images/linkedin.png" alt=""></a>
+            <a href="http://twitter.com" target="_blank"><img src="images/twitter.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+
+<script src="script_hs.js"></script>
+
+</html>
